@@ -16,6 +16,12 @@
   - Número de colunas: 16
   - O que é possível concluir que houve a adição de 5 colunas (grupo_cargo, idade,tempo_empresa, ds_idade_cat e ds_tempo_empresa_cat)
  
+  - Feedbacks pós conversa:
+    - Importação por URL foi uma boa abordagem
+    - Para o agrupamento, faça com o groupBy e depois agregre com o "agg" a coluna que deseja realizar a contagem. É algo realizado a fato e dimensão, conteúdo de banco de dados 
+    - O arquivo em formato.parquet, se utilizar aquele comando write, possivelmente estará salvo no S3
+  
+ 
   
  
     
